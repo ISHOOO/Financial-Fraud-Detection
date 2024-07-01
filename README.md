@@ -25,15 +25,12 @@ Data Dictionary:
 1. **Scikit-Learn**: Scikit-learn is a machine learning library for Python that provides simple and efficient tools for data mining and data analysis, including classification, regression, clustering, and dimensionality reduction. Used in the project for performing soplitting and validation data, Label encoding categorical features, building and training Random forest classifier and evaluating it using Confusion matrix and ROC-AUC curve .
 
     ![scikit learn](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/293256c7-8e8f-42cd-8110-136d615ca51b)
-
 2. **Pandas**: A powerful data manipulation and analysis library for Python, providing data structures like DataFrames, Series, Sparse, Panel and Collection to efficiently handle and analyze large datasets. Used in the project for data cleaning, preprocessing, feature engineering, and manipulation of the transaction data to prepare it for modeling.
 
     ![Pandas](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/7fb05ec4-c840-41ac-bd6f-b2d65078b6b6)
-
 3. **Matplotlib**: A comprehensive library for creating static, animated, and interactive visualizations in Python. Used in the project for plotting and visualizing the distribution of variables, trends, and relationships in the data to gain insights and communicate findings.
 
     ![matplotlib](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/038f514d-547b-4aeb-9940-7ac25aab46a4)
-
 4. **Seaborn**: A statistical data visualization library based on Matplotlib that provides a high-level interface for drawing attractive and informative graphics. Used in the project to visualize the confusion matrix, and study multicollinearity between variables using pair plots, heatmaps, and box plots.
 
     ![seaborn](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/7048f221-44ce-4f6e-922c-0228123ca20e)
@@ -66,7 +63,7 @@ This project went through various stages throughout its entire lifecycle which a
 
 2. **Confusion matrix**:
 
-   ![Confusion matrix](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/624572ef-3b68-44ea-a3a5-dd9e2947faba)
+    ![Confusion Matrix](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/b8d8db69-58e9-4dc8-9069-7a524f2a0d5b)
 
 4. **ROC-AUC Curve**:
 
