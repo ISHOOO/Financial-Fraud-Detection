@@ -3,6 +3,7 @@
 ## Overview
 A fraud detection model built using random forests and rule based classifier. It detects fraud in financial transactions based on predictive features such as transaction amount, payer type (customer/business), reciever type (customer/business), reciever account balance and payer account balance. The model achieves a validation accuracy of about 100% on the given validation data. 
 
+
 ## About the dataset
 Openly available on Kaggle: [Fraudulent Transactions Data](https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data)
 size of the dataset: 6,362,620 rows and 10 columns
@@ -50,17 +51,23 @@ This project went through various stages throughout its entire lifecycle which a
 
 5. **Model Evalution**: involves plotting the confusion matrix and the ROC-AUC curve, and printing the classification report.
 
+
 ## Features of the model:
 1. **Ensemble of multiple learners**: It is a bagging ensemble of 15 decision trees
 2. **Information gain**: It uses entropy/information-gain as heuristic to split at a node of each decision tree
 3. **rule-based bias**: The model is biased to classify each of those transactions as fraud where the amount is > 200,000
+4. **Accuracy**: The model achieves a validation accuracy of 100% on the given validation data.
+
 
 ## Evaluating Model Performance:
 1. **Classification Report**:
+
     ![Classification Report](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/fe4659d6-8a76-482f-bbe0-1c1638a8310a)
 
 2. **Confusion matrix**:
-    ![Confusion matrix](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/624572ef-3b68-44ea-a3a5-dd9e2947faba)
 
-3. **ROC-AUC Curve**:
+   ![Confusion matrix](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/624572ef-3b68-44ea-a3a5-dd9e2947faba)
+
+4. **ROC-AUC Curve**:
+
     ![ROC-AUC](https://github.com/ISHOOO/Financial-Fraud-Detection/assets/132544766/3649a7d4-0ac9-4cbe-bf56-e4a7dfc29238)
