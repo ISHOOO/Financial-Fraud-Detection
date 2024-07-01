@@ -1,1 +1,2 @@
 # Financial-Fraud-Detection
+A fraud detection model built using random forests and rule based classifier. It detects fraud in financial transactions based on predictive features such as transaction amount, payer type (customer/business), reciever type (customer/business), reciever account balance and payer account balance. The dimensions of training data are 6362620 x 11 and achives a validation accuracy of about 100% on the given validation data. 
